@@ -1,4 +1,25 @@
 # Speech-Emotion-Recognition
 
-In this project, we are going to develop a system for recognizing the speech of a person and identifying the emotion of the person. This is done by using the Convolution Neural Network (CNN). For this project, we have used the Speech Emotion Recognition (SER) dataset from Kaggle. This dataset contains several audio recordings that are recorded by professional voice artists who are both male and female. We will design and train our own Convolutional Neural Network (CNN) to classify the audio recordings into different emotions, this dataset contains audio recordings that are labelled with seven audio recordings which are Angry, Sad, Fear, Disgust, Happy, Neutral, and Surprise. For the data preprocessing of the audio signals of the speech, we have extracted features such as MFCCs and used them as input to the Convolutional Neural Network (CNN). Also, for additional preprocessing of the audio signals, we reduce the duration of the audio signals which were too long and for the audio signals which were too short, we added some noise to the input audio signal.
-After the data preprocessing, we designed our own CNN model and trained it with the input audio signal recordings. For the CNN model, we have used several layers to achieve high accuracy. The performance of the CNN model was also evaluated such as precision, F1-score, Recall, and accuracy. Our model achieved an overall validation accuracy of 96.38% and a test accuracy of 95.86%. This was achieved after setting the epochs to 30, from this we can say that the CNN model performed very well in recognizing the emotions from the audio signals of the speech. And this system can have several applications in various fields such as customer service and diagnosis of patients with mental health issues.
+Welcome to our Speech Emotion Recognition (SER) project! Here, we embark on a journey to delve into the intricacies of human emotion through speech analysis.
+
+Overview
+
+In this project, we harness the power of Convolutional Neural Networks (CNNs) to discern the emotions conveyed in speech. Leveraging the rich dataset provided by Kaggle's Speech Emotion Recognition dataset, featuring diverse recordings by professional voice artists, we embark on a quest to classify emotions such as Anger, Sadness, Fear, Disgust, Happiness, Neutrality, and Surprise.
+
+Methodology
+
+Our approach involves meticulous data preprocessing, where we extract essential features like Mel-frequency cepstral coefficients (MFCCs), ensuring optimal input for our CNN architecture. To address variability in audio duration, we implement thoughtful strategies such as duration standardization and noise augmentation.
+
+Model Development
+
+Crafting a robust CNN model lies at the heart of our endeavor. Through iterative design and training, we sculpt a multi-layered neural network tailored for high accuracy and nuanced emotion classification. Our model undergoes rigorous evaluation, gauging performance metrics including precision, F1-score, recall, and overall accuracy.
+
+Results
+
+The fruits of our labor shine through impressive validation and test accuracies, standing at 96.38% and 95.86%, respectively, after 30 epochs of training. These stellar results underscore the efficacy of our CNN model in deciphering emotions from speech signals with remarkable precision.
+
+Implications
+
+Beyond the realms of our project, the implications of our work reverberate across diverse domains. From enhancing customer service interactions to aiding in the diagnosis of mental health conditions, our SER system holds promise for myriad applications, poised to enrich human experiences and societal well-being.
+
+Join us as we unravel the symphony of emotions woven within every spoken word, paving the way for a future where machines truly understand the language of the heart.
